@@ -1,0 +1,110 @@
+@import url('font/Montserrat-ExtraBold.ttf');
+@import url('font/Montserrat-Regular.ttf');
+@import url('font/Montserrat-Thin.ttf');
+
+@font-face{
+    font-family: 'Montserrat-E';
+    src: url('font/Montserrat-ExtraBold.ttf');
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: 'Montserrat-F';
+    src: url('font/Montserrat-Thin.ttf');
+}
+body{
+    background-color: rgb(132, 194, 230);
+    font-family: 'Montserrat';
+    font-size: 1em;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+    color: #0d2b22;
+}
+h1{
+    font-family: 'Montserrat-E';
+    margin: .2em;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(245, 251, 255);
+}
+h2{
+    font-family: 'Montserrat-E';
+}
+img{
+    height: 27em;
+    object-fit: cover;
+}
+.cont_p{
+    background-color:rgb(191, 232, 255);
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+}  
+.cont_i{
+    padding: 1em;
+}
+.cont_d{
+    margin: auto;
+    justify-content: center;
+    font-size: 1em;
+}
+div{
+    margin: .7em;
+}
+button{
+    background-color: rgb(48, 136, 187);
+    color: antiquewhite;
+    border: none;
+    border-radius: 25%;
+    outline: none;
+    height: 2.5em;
+    line-height: 2em;
+    font-size: .75em;
+    font-family: 'Montserrat';
+    width: 10em;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    margin: 1em;  
+    border-radius: .5em;
+    border-color: #0d2b22;
+    border-collapse: collapse;
+    width: 78%;
+    white-space: nowrap;
+    background-color: rgb(213, 236, 250);
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    font-size: 1em;
+    font-family: 'Montserrat-E';
+    white-space: pre-wrap;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+    font-size: 1em;
+    font-family: 'Montserrat-E';
+}
+
+.paciente{
+   font-size: 1.5em;
+   font-family: 'Montserrat-E';
+   color: #0d2b22;
+   padding-left: 1em;
+   padding-top: 1em;
+   margin: 0;
+   text-align: left;
+}
+

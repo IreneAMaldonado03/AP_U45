@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Hospital E2</title>
+</head>
+
+<body>
+    <h1>Facturación Electrónica</h1>
+    <div class="cont_p">
+        <div class="cont_i">
+            <img src="https://images.pexels.com/photos/3844581/pexels-photo-3844581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+        </div>
+        <div class="cont_d">
+            <h2>Datos del Paciente</h2>
+            <div class="nm-p">
+                <p>Nombre:
+                <input type="text" id="nm-p" placeholder="Nombre del Paciente">
+                </p>
+            </div>
+            <div class="cc">
+                <p>Costo de la Consulta:
+                <input type="number" id="cost-c" placeholder="Ingresa el costo">
+                </p>
+            </div>
+            <div class="cd">
+                <p>Costo de Hospitalización por Día:
+                <input type="number" id="cost-d" placeholder="Ingresa el costo">
+                </p>
+            </div>
+            <div class="d">
+                <p>Días Hospitalizado:
+                <input type="number" id="dias-h" placeholder="Ingresa el número de días">
+                </p>
+            </div>
+            <div class="cv">
+                <p>Costos Varios (Análisis, Cirugías, etc.):
+                <input type="text" id="cost-v" placeholder="Ingresa los costos">
+                </p>
+            </div>
+            <div class="m">
+                <p>Costo de Medicamentos:
+                <input type="number" id="cost-m" placeholder="Ingresa el costo">
+                </p>
+            </div>
+            <div class="ded">
+                <p>Deducciones:
+                <input type="number" id="deduc" placeholder="Ingresa las deducciones">
+                </p>
+            </div>
+            <br>
+            <div class="bt">
+                <button id="enviar" onclick="Factura();">Enviar</button>
+            </div>
+        </div>
+    </div>  
+</body>
+<script type="text/javascript" src="E2.js"></script>
+</html>

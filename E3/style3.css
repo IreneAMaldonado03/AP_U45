@@ -1,0 +1,75 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+  
+  h1 {
+    font-family: "Montserrat-E", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  h2 {
+    font-family: "Montserrat-E", sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
+  .formulario {
+    width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 10px;
+    background-color: rgb(143, 219, 133);
+  }
+  
+  .campo {
+    margin-bottom: 1em;
+  }
+  
+  label {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: .5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .boton {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(29, 206, 23);
+    color: antiquewhite;
+    border: none;
+    border-radius: 25%;
+    outline: none;
+    height: 2.5em;
+    line-height: 2em;
+    font-size: .75em;
+    font-family: "Montserrat", sans-serif;
+    width: 10em;
+    
+  }
+
+  #alergia{
+    width: 102%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: "Montserrat", sans-serif;
+  }
