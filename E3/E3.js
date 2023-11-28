@@ -1,4 +1,7 @@
+
 function IMC() {
+  document.write("HI")
+  /*
     var nombre = document.getElementById("nombre").value;
     var edad = parseFloat(document.getElementById("edad").value);
     var peso = parseFloat(document.getElementById("peso").value);
@@ -36,7 +39,5 @@ function IMC() {
       "IMC: " + imc + "<br>" +
       "Platillo sugerido: " + platillo + "<br>" +
       "Ejercicio sugerido: " + ejercicio;
-  
-  
-  document.getElementById("enviar").addEventListener("click", IMC);
+*/
 }

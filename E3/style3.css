@@ -53,7 +53,7 @@ body {
     justify-content: center;
   }
   
-  input[type="submit"] {
+  button {
     background-color: rgb(29, 206, 23);
     color: antiquewhite;
     border: none;
